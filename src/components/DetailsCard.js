@@ -34,7 +34,7 @@ function DetailsCard({setIshow}) {
         setSegments([...segments, obj])
     }
     const handleSaveClick = () => {
-        console.log({ segment_name: segName, schema: selectedSchema })
+        console.log(JSON.stringify({ segment_name: segName, schema: selectedSchema }))
     }
 
 
